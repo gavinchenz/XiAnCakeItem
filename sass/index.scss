@@ -1,0 +1,77 @@
+$FontFamily:"微软雅黑",Arial;
+$marginInit:0 auto;
+$BgColorInit:red;
+$FontSize:14px;
+$color:#3c2314;
+$colorHover:#c8b49b;
+$LetterSpacing:1.5px;
+
+@charset "utf-8";
+/* CSS Document */
+body,div,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,img,form,table,tr,th,td,caption,fieldset,input{
+	margin:0;
+	padding:0;
+}
+html,body{
+	width:100%;
+	height:auto;
+}
+body{
+	font-family: $FontFamily;
+	background-color:#fff;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:none;
+	display: block;
+}
+i{
+	display: none;
+}
+
+// banner
+.banner{
+	height:813px;
+	background:url(../img/3857.jpg) no-repeat center center;
+	margin:$marginInit;
+}
+
+.banner .head{
+	width:1162px;
+	height:76px;
+	padding-top:24px;
+	margin:$marginInit;
+	text-align:right;
+}
+
+.banner .head a,span{
+	font-size:$FontSize;
+	letter-spacing:$LetterSpacing;
+	color:$color;
+	line-height:52px;
+	padding-right:10px;
+}
+.banner .head span{
+	padding-right:20px;
+}
+.banner .head span:nth-child(3){
+	padding-right:0;
+}
+.banner a:hover{
+	color:$colorHover;
+}
+.banner .nav{
+	width:1162px;
+	height:82px;
+	margin:$marginInit;
+}
+.nav .logo{
+	width:246px;
+	height:74px;
+	float:left;
+}
