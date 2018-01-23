@@ -1,0 +1,220 @@
+.sec_logdiv {
+  width: 1162px;
+  height: 378px;
+  margin: 170px auto 0; }
+
+.sec_logdiv .logNav {
+  width: 382px;
+  height: 43px;
+  margin: 0 auto;
+  border: 1px solid #E7E7E7; }
+
+.logNav a {
+  width: 120px;
+  height: 42px;
+  float: left;
+  font-size: 14px;
+  color: #3c2314;
+  line-height: 45px;
+  text-align: center;
+  margin-right: 7px; }
+
+.logNav a:hover {
+  color: #FFF;
+  background: #C8B49B; }
+
+#phoneAId {
+  color: #FFF;
+  background: #C8B49B;
+  border-bottom: 3px solid #3c2314; }
+
+#weixinAId {
+  position: relative;
+  text-indent: 36px; }
+
+#weixinAId img {
+  position: absolute;
+  left: 5px;
+  top: 4px;
+  width: 36px;
+  height: 36px; }
+
+.sec_logdiv .innnerBox {
+  width: 382px;
+  height: 248px;
+  margin: 40px auto 0; }
+
+.innnerBox .phoneLogBox {
+  width: 382px;
+  height: 248px;
+  z-index: 998;
+  text-align: right;
+  display: block; }
+
+.phoneLogBox .phoneLi {
+  clear: both;
+  width: 382px;
+  height: 42px;
+  margin-bottom: 20px; }
+
+.phoneLi label {
+  width: 100px;
+  height: 42px;
+  display: inline-block;
+  text-align: left;
+  line-height: 42px;
+  float: left;
+  font-size: 14px; }
+
+.phoneLi .text {
+  height: 42px;
+  line-height: 42px;
+  font-size: 14px;
+  border: 1px solid #E7E7E7;
+  float: left; }
+
+.text1 {
+  width: 278px; }
+
+.text2, .text3 {
+  width: 118px; }
+
+.phoneLi span {
+  display: block;
+  float: right;
+  width: 132px;
+  height: 42px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 42px;
+  color: #3c2314;
+  border: 1px solid #E7E7E7; }
+
+.phoneLi a {
+  display: block;
+  float: right;
+  width: 132px;
+  height: 42px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 42px;
+  color: #3c2314;
+  border: 1px solid #E7E7E7; }
+
+.phoneLi a:hover {
+  color: #c8b49b; }
+
+.phoneLogBox .btn {
+  width: 382px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #FBF5DD;
+  background: #3c2314;
+  border: 0;
+  outline: 0; }
+
+.phoneLogBox .a1, .a2 {
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #3c2314;
+  letter-spacing: 1.5px; }
+
+.phoneLogBox .a1 {
+  margin-right: 10px; }
+
+.phoneLogBox .a1:hover {
+  color: #c8b49b; }
+
+.phoneLogBox .a2:hover {
+  color: #c8b49b; }
+
+.innnerBox .accountLogBox {
+  width: 382px;
+  height: 248px;
+  z-index: 998;
+  text-align: right;
+  display: none; }
+
+.accountLogBox .accountLi {
+  clear: both;
+  width: 382px;
+  height: 42px;
+  margin-bottom: 20px; }
+
+.accountLi label {
+  width: 100px;
+  height: 42px;
+  display: inline-block;
+  text-align: left;
+  line-height: 42px;
+  float: left;
+  font-size: 14px; }
+
+.accountLi .text, .pass {
+  width: 278px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 14px;
+  border: 1px solid #E7E7E7;
+  float: left; }
+
+.accountLogBox .btn {
+  margin-top: 30px;
+  width: 382px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #FBF5DD;
+  background: #3c2314;
+  border: 0;
+  outline: 0; }
+
+.accountLogBox .a1, .a2 {
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #3c2314;
+  letter-spacing: 1.5px; }
+
+.accountLogBox .a1 {
+  margin-right: 10px; }
+
+.accountLogBox .a1:hover {
+  color: #c8b49b; }
+
+.accountLogBox .a2:hover {
+  color: #c8b49b; }
+
+.innnerBox .weiXinBox {
+  letter-spacing: 1.5px;
+  width: 382px;
+  height: 382px;
+  z-index: 998;
+  display: none;
+  text-align: center; }
+
+.weiXinBox h2 {
+  width: 382px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #3c2314; }
+
+.weiXinBox img {
+  width: 282px;
+  height: 282px;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 auto; }
+
+.weiXinBox p {
+  width: 282px;
+  height: 20px;
+  line-height: 30px;
+  font-size: 10px;
+  text-align: center;
+  margin: 0 auto; }

@@ -1,0 +1,241 @@
+$FontFamily:"微软雅黑",Arial;
+$marginInit:0 auto;
+$BgColorInit:#fff;
+$FontSize:14px;
+$color:#3c2314;
+$colorHover:#c8b49b;
+$LetterSpacing:1.5px;
+$Width:1162px;
+$Border:1px solid #E7E7E7;
+
+// section
+.sec_logdiv{
+	width:$Width;
+	height:378px;
+	margin:170px auto 0;
+}
+.sec_logdiv .logNav{
+	width:382px;
+	height:43px;
+	margin:$marginInit;
+	border:$Border;
+}
+.logNav a{
+	width:120px;
+	height:42px;
+	float:left;
+	font-size:$FontSize;
+	color:$color;
+	line-height:45px;
+	text-align:center;
+	margin-right:7px;
+}
+.logNav a:hover{
+	color:#FFF;
+	background:#C8B49B;
+}
+#phoneAId{
+	color:#FFF;
+	background:#C8B49B;
+	border-bottom:3px solid $color;
+}
+#weixinAId{
+	position:relative;
+	text-indent:36px;
+}
+#weixinAId img{
+	position:absolute;
+	left:5px;
+	top:4px;
+	width:36px;
+	height:36px;
+}
+
+.sec_logdiv .innnerBox{
+	width:382px;
+	height:248px;
+	margin:40px auto 0;
+}
+
+// phoneLogBox
+
+.innnerBox .phoneLogBox{
+	width:382px;
+	height:248px;
+	z-index:998;
+	text-align:right;
+	display:block;
+}
+.phoneLogBox .phoneLi{
+	clear:both;
+	width:382px;
+	height:42px;
+	margin-bottom:20px;
+}
+.phoneLi label{
+	width:100px;
+	height:42px;
+	display:inline-block;
+	text-align:left;
+	line-height:42px;
+	float:left;
+	font-size:$FontSize;
+}
+.phoneLi .text{
+	height:42px;
+	line-height:42px;
+	font-size:$FontSize;
+	border:$Border;
+	float:left;
+}
+.text1{
+	width:278px;
+}
+.text2,.text3{
+	width:118px;
+}
+.phoneLi span{
+	display:block;
+	float:right;
+	width:132px;
+	height:42px;
+	font-size:$FontSize;
+	text-align:center;
+	line-height:42px;
+	color:$color;
+	border:$Border;
+}
+.phoneLi a{
+	display:block;
+	float:right;
+	width:132px;
+	height:42px;
+	font-size:$FontSize;
+	text-align:center;
+	line-height:42px;
+	color:$color;
+	border:$Border;
+}
+.phoneLi a:hover{
+	color:$colorHover;
+}
+.phoneLogBox .btn{
+	width:382px;
+	height:40px;
+	line-height:40px;
+	font-size:$FontSize;
+	color:#FBF5DD;
+	background:$color;
+	border:0;
+	outline: 0;
+} 
+.phoneLogBox .a1,.a2{
+	height:40px;
+	line-height:40px;
+	font-size:$FontSize;
+	color:$color;
+	letter-spacing:$LetterSpacing;
+} 
+.phoneLogBox .a1{
+	margin-right:10px;
+} 
+.phoneLogBox .a1:hover{
+	color:$colorHover;
+} 
+.phoneLogBox .a2:hover{
+	color:$colorHover;
+} 
+
+// accountLogBox
+
+.innnerBox .accountLogBox{
+	width:382px;
+	height:248px;
+	z-index:998;
+	text-align:right;
+	display:none;
+}
+.accountLogBox .accountLi{
+	clear:both;
+	width:382px;
+	height:42px;
+	margin-bottom:20px;
+}
+.accountLi label{
+	width:100px;
+	height:42px;
+	display:inline-block;
+	text-align:left;
+	line-height:42px;
+	float:left;
+	font-size:$FontSize;
+}
+.accountLi .text,.pass{
+	width:278px;
+	height:42px;
+	line-height:42px;
+	font-size:$FontSize;
+	border:$Border;
+	float:left;
+}
+.accountLogBox .btn{
+	margin-top:30px;
+	width:382px;
+	height:40px;
+	line-height:40px;
+	font-size:$FontSize;
+	color:#FBF5DD;
+	background:$color;
+	border:0;
+	outline: 0;
+} 
+.accountLogBox .a1,.a2{
+	height:40px;
+	line-height:40px;
+	font-size:$FontSize;
+	color:$color;
+	letter-spacing:$LetterSpacing;
+} 
+.accountLogBox .a1{
+	margin-right:10px;
+} 
+.accountLogBox .a1:hover{
+	color:$colorHover;
+} 
+.accountLogBox .a2:hover{
+	color:$colorHover;
+} 
+
+// weiXinBox
+.innnerBox .weiXinBox{
+	letter-spacing:$LetterSpacing;
+	width:382px;
+	height:382px;
+	z-index:998;
+	display:none;
+	text-align:center;
+}
+.weiXinBox h2{
+	width:382px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	font-size:$FontSize + 6;
+	font-weight:normal;
+	color:$color;
+}
+.weiXinBox img{
+	width:282px;
+	height:282px;
+	text-align:center;
+	line-height:50px;
+	margin:0 auto;	
+}
+.weiXinBox p{
+	width:282px;
+	height:20px;
+	line-height:30px;
+	font-size:$FontSize - 4;
+	text-align:center;
+	margin:0 auto;
+}

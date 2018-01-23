@@ -1,0 +1,66 @@
+.h_uls .h_li:nth-child(3) .h_a {
+  color: #c8b49b; }
+
+.section {
+  width: 1162px;
+  height: 5820px;
+  margin: 70px auto 0; }
+
+.section .sec_box {
+  width: 770px;
+  height: 5790px;
+  margin: 0 auto;
+  padding-top: 30px; }
+
+.sec_box .sec_h2 {
+  width: 770px;
+  height: 72px;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 72px;
+  text-align: center;
+  color: #AA8764;
+  border-top: 1px solid #E7E7E7;
+  border-bottom: 1px solid #E7E7E7; }
+
+.sec_box .sec_dl {
+  width: 770px;
+  height: 2530px; }
+
+.sec_dl .sec_dt {
+  width: 770px;
+  height: 770px;
+  position: relative;
+  margin: 70px 0 60px; }
+
+.sec_dt .dt_img {
+  width: 770px;
+  height: 770px; }
+
+.sec_dt .infoP {
+  width: 380px;
+  height: 62px;
+  position: absolute;
+  left: 200px;
+  bottom: -32px;
+  background: white;
+  border: 1px solid #E7E7E7;
+  z-index: 997;
+  text-align: center;
+  line-height: 8px;
+  font-size: 14px;
+  color: #3c2314;
+  letter-spacing: 1.5px; }
+
+.infoP span {
+  display: block;
+  color: #AA8764;
+  line-height: 38px;
+  letter-spacing: 1.5px; }
+
+.sec_dl .sec_dd {
+  color: #3c2314;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: 1.5px;
+  margin-bottom: 26px; }

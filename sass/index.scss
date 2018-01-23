@@ -1,10 +1,11 @@
 $FontFamily:"微软雅黑",Arial;
 $marginInit:0 auto;
-$BgColorInit:red;
+$BgColorInit:#fff;
 $FontSize:14px;
 $color:#3c2314;
 $colorHover:#c8b49b;
 $LetterSpacing:1.5px;
+$Width:1162px;
 
 @charset "utf-8";
 /* CSS Document */
@@ -34,21 +35,116 @@ i{
 	display: none;
 }
 
+// fixed
+.infoFixed{
+	position:fixed;
+	left:20px;
+	bottom:21px;
+	width:105px;
+	height:31px;
+	border-radius:3px;
+	background:url(../img/iconBack2.png) no-repeat left top;
+	z-index:999;
+	padding:13px 0 0 7px;
+}
+.infoFixed a,img{
+	width:112px;
+	height:44px;
+	border-radius:3px;
+	
+}
+.infoFixed img{
+	width:105px;
+	height:31px;
+}
+
+.imgDown{
+	position:fixed;
+	right:88px;
+	top:0;
+	width:20px;
+	height:20px;
+	z-index:999;
+}
+.imgDown a,img{
+	width:20px;
+	height:20px;
+}
+
+.couponFiexd{
+	position:fixed;
+	right:2px;
+	bottom:2px;
+	z-index:999;
+}
+.couponFiexd a{
+	display:inline-block;
+	width:39px;
+	height:39px;
+	background:#666666;
+	font-size:$FontSize;
+	text-align:center;
+	letter-spacing:$LetterSpacing;
+	color:#fff;
+}
+.couponFiexd .aImg{
+	position:absolute;
+	left:-490px;
+	bottom:-10px;
+	display:none;
+	width:476px;
+	height:326px;
+	border:2px solid #fff;
+	background:url(../img/couponFiexd_aImg.jpg) no-repeat left top;
+
+}
+.couponFiexd:hover .aImg{
+	display:block;
+}
+
 // banner
 .banner{
-	height:813px;
-	background:url(../img/3857.jpg) no-repeat center center;
+	height:650px;
+	background:url(../img/2848.jpg) no-repeat center top;
 	margin:$marginInit;
+	position:relative;
+}
+.banner .fixedBox{
+	width:300px;
+	height:40px;
+	position:absolute;
+	left:30px;
+	bottom:30px;
+}
+.banner .fixedBox .fixedAnNiu{
+	float:left;
+	width:28px;
+	height:28px;
+	text-align:center;
+	line-height:28px;
+	border:1px solid $color;
+	border-radius:50%;
+	font-weight:bold;
+	color:$color;
+	margin-right:24px;
+}
+#bannerId #fixedBoxId .fixedAnNiu:hover{
+	background-color:#3c2314;
+	color:#fff;
+	margin-right:24px;
 }
 
 .banner .head{
-	width:1162px;
+	width:$Width;
 	height:76px;
-	padding-top:24px;
 	margin:$marginInit;
 	text-align:right;
 }
-
+.head .headRight{
+	float:right;
+	height:52px;
+	padding-top:24px;
+}
 .banner .head a,span{
 	font-size:$FontSize;
 	letter-spacing:$LetterSpacing;
@@ -62,16 +158,365 @@ i{
 .banner .head span:nth-child(3){
 	padding-right:0;
 }
-.banner a:hover{
+#bannerId a:hover{
 	color:$colorHover;
 }
 .banner .nav{
-	width:1162px;
+	width:$Width;
 	height:82px;
 	margin:$marginInit;
 }
 .nav .logo{
 	width:246px;
-	height:74px;
+	height:75px;
 	float:left;
+}
+.nav .navUls{
+	width:562px;
+	height:27px;
+	float:left;
+	padding:55px 0 0 21px;
+}
+.navUls .navLi{
+	height:27px;
+	float:left;
+}
+.navUls .navLi a{
+	padding:0 21px;
+	color:$color;
+	font-size:$FontSize;
+}
+.navUls li .navLi1A1{
+	color:$colorHover;
+}
+.nav .login{
+	width:149px;
+	float:right;
+	height:24px;
+	padding:45px 0 0;
+}
+.nav .login a{
+	color:$color;
+	font-size:$FontSize;
+	display:inline;
+	padding:0 5px;
+	position:relative;
+}
+.nav .login a img{
+	display:inline-block;
+	position:relative;
+	left:23px;
+}
+// content
+.content{
+    height: 1800px;
+}
+// Popular recommendation
+.popbox{
+	width:$Width;
+	height:404px;
+	margin:$marginInit;
+	background-color:$BgColorInit;
+	padding-top:20px;
+}
+.popbox .poph2{
+	width:$Width;
+	height:54px;
+}
+.popbox .poph2 .h2p{
+	width:168px;
+	height:52px;
+	padding-top:24px;
+	float:left;
+	font-weight:normal;
+	color:$color;
+	background:url(../img/row_tit1.png) no-repeat right top;
+}
+.popbox .poph2 .more{
+	width:31px;
+	height:52px;
+	float:right;
+	font-size:$FontSize;
+	letter-spacing:$LetterSpacing;
+	color:$color;
+	text-align:center;
+	padding-top:36px;
+}
+.popbox .poph2 .more:hover{
+	color:$colorHover;
+}
+.popbox .cakebox{
+	clear:right;
+	display:block;
+	width:280px;
+	height:280px;
+	float:left;
+	overflow:hidden;
+	margin:0 5px;
+	position:relative;
+	overflow:hidden;
+}
+.cakebox .boxup{
+	width:280px;
+	height:280px;
+
+}
+.boxup .cakeimg{
+	width:280px;
+	height:280px;
+
+}
+.cakebox:hover .boxup{
+	background:url(../img/3523.jpg) no-repeat center;
+ 	transform:scale(1.7);
+ 	transition:all .5s;
+}
+.cakebox .titleP{
+	position: absolute;
+    left: 14px;
+    bottom: 10px;
+    z-index: 998;
+    background: rgba(255,255,255,.7);
+	width:250px;
+	height:58px;
+	border:1px solid #e7e7e7;
+	font-size:$FontSize;
+	color:$color;
+	letter-spacing:$LetterSpacing;
+	text-align:center;
+}
+.titleP .cakeP1,.cakeP2{
+	display:inline-block;
+	height:17px;
+	font-size:$FontSize;
+	color:$color;
+	letter-spacing:$LetterSpacing;
+	line-height:30px;
+	margin:6px 0;
+}
+.titleP .priceSpan{
+	display:block;
+	height:29px;
+	font-size:$FontSize;
+	font-weight:bold;
+	color:#aa8764;
+	letter-spacing:$LetterSpacing;
+	line-height:29px;
+	margin:0 auto;
+}
+
+// Premium
+.prebox{
+	width:$Width;
+	height:404px;
+	margin:$marginInit;
+	background-color:$BgColorInit;
+	padding-top:20px;
+}
+.prebox .preh2{
+	width:$Width;
+	height:54px;
+}
+.prebox .preh2 .h2p{
+	text-indent: 76px;
+	width:260px;
+	height:52px;
+	padding-top:10px;
+	float:left;
+	font-weight:normal;
+	color:$color;
+	background:url(../img/row_tit2.png) no-repeat left top;
+}
+.prebox .preh2 .more{
+	width:31px;
+	height:52px;
+	float:right;
+	font-size:$FontSize;
+	letter-spacing:$LetterSpacing;
+	color:$color;
+	text-align:center;
+	padding-top:36px;
+}
+.prebox .preh2 .more:hover{
+	color:$colorHover;
+}
+.prebox .cakebox{
+	clear:right;
+	display:block;
+	width:280px;
+	height:280px;
+	float:left;
+	overflow:hidden;
+	margin:0 5px;
+	position:relative;
+}
+
+//Selected ingredients
+.selbox{
+	width:$Width;
+	height:404px;
+	margin:$marginInit;
+	background-color:$BgColorInit;
+	padding-top:20px;
+}
+.selbox .selh2{
+	width:$Width;
+	height:54px;
+}
+.selbox .selh2 .h2p{
+	text-indent: 76px;
+	width:260px;
+	height:52px;
+	padding-top:10px;
+	float:left;
+	font-weight:normal;
+	color:$color;
+	background:url(../img/row_tit2.png) no-repeat left top;
+}
+.selbox .selh2 .more{
+	width:31px;
+	height:52px;
+	float:right;
+	font-size:$FontSize;
+	letter-spacing:$LetterSpacing;
+	color:$color;
+	text-align:center;
+	padding-top:36px;
+}
+.selbox .selh2 .more:hover{
+	color:$colorHover;
+}
+.selbox .cakebox {
+	overflow:hidden;
+	clear:right;
+	display:block;
+	width:280px;
+	height:280px;
+	float:left;
+	overflow:hidden;
+	margin:0 5px;
+	position:relative;
+}
+
+// Moment
+.mombox{
+	width:$Width;
+	height:404px;
+	margin:$marginInit;
+	background-color:$BgColorInit;
+	padding-top:20px;
+}
+.mombox .momh2{
+	width:$Width;
+	height:54px;
+}
+.mombox .momh2 .h2p{
+	width:110px;
+	height:52px;
+	padding-top:24px;
+	float:left;
+	font-weight:normal;
+	color:$color;
+	background:url(../img/row_tit1.png) no-repeat right top;
+}
+.mombox .momh2 .more{
+	width:31px;
+	height:52px;
+	float:right;
+	font-size:$FontSize;
+	letter-spacing:$LetterSpacing;
+	color:$color;
+	text-align:center;
+	padding-top:36px;
+}
+.mombox .momh2 .more:hover{
+	color:$colorHover;
+}
+.mombox .momBoxes{
+	width:$Width;
+	height:404px;
+	margin:$marginInit;
+}
+.momBoxes .mombox{
+	clear:right;
+	float:left;
+	display:block;
+	width:574px;
+	height:378px;
+}
+.mombox1{
+	margin-right:14px;
+}
+.mombox .momImg{
+	width:574px;
+	height:378px;
+}
+
+// footer
+.footer{
+	clear:both;
+	height:280px;
+	margin-top:252px;
+	background:url(../img/footer.png) no-repeat left top;
+}
+.footer .footBox{
+	width:$Width;
+	margin:0 auto 20px;
+	height:131px;
+	padding-top:69px;
+	text-align:center;
+}
+.footBox .footUls{
+	display:inline-block;
+	width:729px;
+	height:69px;
+	margin:0 auto;
+	background:url(../img/footer_log.png) no-repeat left bottom;
+	padding-left:131px;
+}
+.footUls .footLis{
+	float: left;
+	padding: 50px 42px 0 48px;
+	height:14px;
+	background:url(../img/footer_point.png) no-repeat right bottom;
+}
+.footUls .footLis:nth-child(5){
+	background:none;
+}
+.footLis .footA{
+	font-size:$FontSize;
+	color:$color;
+}
+.footBox .footP{
+	padding-top: 30px;
+	width:860px;
+	height:12px;
+	line-height:12px;
+	margin:$marginInit;
+	color:#9b9b9b;
+	font-size:$FontSize - 2;
+	letter-spacing:$LetterSpacing;
+}
+.copy{
+	width:$Width;
+	height:12px;
+	margin:$marginInit;
+}
+.copy .copyP{
+	width:900px;
+	text-align:center;
+	height:24px;
+	line-height:24px;
+	margin:$marginInit;
+	color:#9b9b9b;
+	font-size:$FontSize - 2;
+	letter-spacing:$LetterSpacing;
+}
+.copyP .copyA{
+	color:#9b9b9b;
+	font-size:$FontSize - 2;
+	letter-spacing:$LetterSpacing;
+}
+.copyP .copyA:hover{
+	color:$colorHover;
 }

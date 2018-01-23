@@ -1,0 +1,81 @@
+$FontFamily:"微软雅黑",Arial;
+$marginInit:0 auto;
+$BgColorInit:#fff;
+$FontSize:14px;
+$color:#3c2314;
+$colorHover:#c8b49b;
+$LetterSpacing:1.5px;
+$Width:1162px;
+$Border:1px solid #E7E7E7;
+
+
+.h_uls .h_li:nth-child(3) .h_a{
+  color:$colorHover;
+}
+
+// section
+.section{
+	width:$Width;
+	height:5820px;
+	margin:70px auto 0;
+}
+.section .sec_box{
+	width:770px;
+	height:5790px;
+	margin:$marginInit;
+	padding-top:30px;
+}
+.sec_box .sec_h2{
+	width:770px;
+	height:72px;
+	font-size:$FontSize + 8;
+	font-weight:normal;
+	line-height:72px;
+	text-align:center;
+	color:#AA8764;
+	border-top:$Border;
+	border-bottom:$Border;
+}
+.sec_box .sec_dl{
+	width:770px;
+	height:2530px;
+}
+.sec_dl .sec_dt{
+	width:770px;
+	height:770px;
+	position:relative;
+	margin:70px 0 60px;
+}
+.sec_dt .dt_img{
+	width:770px;
+	height:770px;
+}
+.sec_dt .infoP{
+	width:380px;
+	height:62px;
+	position:absolute;
+	left:200px;
+	bottom:-32px;
+	background:rgba(255,255,255,1);
+	border:$Border;
+	z-index:997;
+	text-align:center;
+	line-height:8px;
+	font-size:$FontSize;
+	color:$color;
+	letter-spacing:$LetterSpacing;
+}
+.infoP span{
+	display:block;
+	color:#AA8764;
+	line-height:38px;
+	letter-spacing:$LetterSpacing;
+}
+.sec_dl .sec_dd{
+	color:$color;
+	font-size:$FontSize - 4;
+	line-height:18px;
+	letter-spacing:$LetterSpacing;
+	margin-bottom:26px;
+}
+

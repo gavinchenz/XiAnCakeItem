@@ -1,0 +1,104 @@
+$FontFamily:"微软雅黑",Arial;
+$marginInit:0 auto;
+$BgColorInit:#fff;
+$FontSize:14px;
+$color:#3c2314;
+$colorHover:#c8b49b;
+$LetterSpacing:1.5px;
+$Width:1162px;
+$Border:1px solid #E7E7E7;
+
+
+.h_uls .h_li:nth-child(6) .h_a{
+  color:$colorHover;
+}
+
+// section
+.sec_regBox{
+	width:$Width;
+	height:325px;
+	margin:170px auto 0;
+}
+.sec_regBox .box{
+	width:400px;
+	height:325px;
+	background:#fff;
+	margin:$marginInit;
+}
+.box .p1{
+	width:400px;
+	height:27px;
+	text-align:center;
+	border-bottom:3px solid #C8B49B;
+	font-size:$FontSize + 4;
+	color:$color;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+.box .uls{
+	width:400px;
+	height:165px;
+}
+.uls .lis{
+	width:380px;
+	height:50px;
+	padding:0 10px;
+	border-bottom:$Border;
+}
+.lis label{
+	display:inline-block;
+	width:84px;
+	height:50px;
+	font-size:$FontSize;
+	color:$color;
+	line-height:50px;
+	text-align:left;
+	letter-spacing:$LetterSpacing;
+}
+.lis input{
+	width:130px;
+	height:30px;
+	margin-left:10px;
+	border:none;
+	outline: 0;
+}
+.lis input a{
+	display:inline-block;
+	float:right;
+}
+.lis a{
+	// width:130px;
+	// height:30px;
+	font-size:$FontSize;
+	color:$color;
+	line-height:50px;
+	text-align:left;
+}
+.lis a:hover{
+	color:$colorHover;
+}
+.box .p2{
+	width:380px;
+	height:21px;
+	font-size:$FontSize;
+	color:#d5d5d5;
+	letter-spacing:$LetterSpacing;
+	padding:0 10px;
+}
+.p2 a{
+	float:right;
+	font-size:$FontSize;
+	color:$colorHover;
+	letter-spacing:$LetterSpacing;
+}
+.box .btn{
+	display:block;
+	width:153px;
+	height:40px;
+	margin:30px auto 0;
+	background:$color;
+	color:#FBF5DD;
+	border:none;
+	cursor:pointer;
+	outline: 0;
+}

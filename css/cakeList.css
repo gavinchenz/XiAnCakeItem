@@ -1,0 +1,343 @@
+@charset "UTF-8";
+/* CSS Document */
+body, div, p, h1, h2, h3, h4, h5, h6, ul, li, ol, dl, dt, dd, img, form, table, tr, th, td, caption, fieldset, input {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  height: auto; }
+
+body {
+  font-family: "微软雅黑", Arial;
+  background-color: #fff; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: none;
+  display: block; }
+
+i {
+  display: none; }
+
+.infoFixed {
+  position: fixed;
+  left: 20px;
+  bottom: 21px;
+  width: 105px;
+  height: 31px;
+  border-radius: 3px;
+  background: url(../img/iconBack2.png) no-repeat left top;
+  z-index: 999;
+  padding: 13px 0 0 7px; }
+
+.infoFixed a, img {
+  width: 112px;
+  height: 44px;
+  border-radius: 3px; }
+
+.infoFixed img {
+  width: 105px;
+  height: 31px; }
+
+.couponFiexd {
+  position: fixed;
+  right: 2px;
+  bottom: 2px;
+  z-index: 999; }
+
+.couponFiexd a {
+  display: inline-block;
+  width: 39px;
+  height: 39px;
+  background: #666666;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #fff; }
+
+.couponFiexd .aImg {
+  position: absolute;
+  left: -490px;
+  bottom: -10px;
+  display: none;
+  width: 476px;
+  height: 326px;
+  border: 2px solid #fff;
+  background: url(../img/couponFiexd_aImg.jpg) no-repeat left top; }
+
+.couponFiexd:hover .aImg {
+  display: block; }
+
+.header {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #E7E7E7;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #fff;
+  z-index: 999; }
+
+.headerBox {
+  width: 1162px;
+  height: 69px;
+  margin: 0 auto; }
+
+.headerBox .logo {
+  display: block;
+  float: left;
+  width: 175px;
+  height: 70px;
+  background: url(../img/header_logo_text.png) no-repeat center; }
+
+.headerBox .h_uls {
+  width: 650px;
+  height: 70px;
+  float: left;
+  padding-left: 100px; }
+
+.h_uls .h_li {
+  display: inline-black;
+  float: left;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 22px; }
+
+.h_li .h_a {
+  font-size: 14px;
+  color: #3c2314; }
+
+.h_uls .h_li:nth-child(2) .h_a {
+  color: #c8b49b; }
+
+.h_li:hover .h_a {
+  color: #c8b49b; }
+
+.headerBox .h_right {
+  float: right;
+  width: 150px;
+  height: 70px;
+  font-size: 14px;
+  color: #3c2314;
+  text-align: center;
+  line-height: 70px;
+  text-indent: -47px;
+  position: relative; }
+
+.h_right a {
+  font-size: 14px;
+  color: #3c2314;
+  margin: 5px; }
+
+.h_right a:hover {
+  color: #c8b49b; }
+
+.h_right .r_span {
+  display: inline-black;
+  float: right;
+  width: 23px;
+  height: 70px;
+  background: url(../img/shop_bag.png) no-repeat right center;
+  cursor: pointer; }
+
+.h_right .r_count {
+  position: absolute;
+  right: -25px;
+  top: 28px;
+  width: 17px;
+  height: 17px;
+  line-height: 17px;
+  border-radius: 50%;
+  background: #3c2314;
+  color: #fff;
+  font-size: 10px;
+  cursor: pointer;
+  text-indent: 0px; }
+
+.cakeListBox {
+  width: 1162px;
+  height: 3350px;
+  margin: 100px auto 0; }
+
+.cakeListBox .list {
+  width: 1162px;
+  height: 48px;
+  line-height: 48px;
+  color: #3c2314;
+  font-size: 14px; }
+
+.list .listP {
+  display: inline;
+  height: 48px;
+  line-height: 48px;
+  color: #aaaaaa;
+  font-size: 14px;
+  margin-right: 70px; }
+
+.list .listSpan a {
+  height: 48px;
+  line-height: 48px;
+  color: #c8b49b;
+  font-size: 14px;
+  margin-right: 25px; }
+
+.list .listA {
+  height: 48px;
+  line-height: 48px;
+  color: #3c2314;
+  font-size: 14px;
+  margin: 0 20px; }
+
+.list .listA:hover {
+  color: #c8b49b; }
+
+.cakeListBox .cakeBoxes {
+  width: 1162px;
+  height: 2730px;
+  border-top: 1px solid #E7E7E7;
+  margin-top: 20px;
+  padding-top: 55px; }
+
+.cakeBoxes .cakeBox {
+  display: block;
+  float: left;
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 10px 20px 0; }
+
+.cakeBox .cakeImg {
+  width: 280px;
+  height: 280px; }
+
+.cakeBox .cakezzc {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 997;
+  display: none;
+  width: 280px;
+  height: 280px; }
+
+.cakeBox:hover .cakezzc {
+  display: block;
+  transform: scale(1.3);
+  transition: all 1s; }
+
+.cakeBox .poP {
+  width: 252px;
+  height: 60px;
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  z-index: 998;
+  color: #3c2314;
+  font-size: 14px;
+  text-align: center;
+  line-height: 42px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #E7E7E7; }
+
+.poP .poSpan {
+  display: block;
+  height: 24px;
+  line-height: 0px;
+  color: #c8b49b; }
+
+.sentbox {
+  width: 1162px;
+  height: 399px;
+  border-top: 1px solid #E7E7E7; }
+
+.sentbox .sentP {
+  width: 1162px;
+  height: 35px;
+  line-height: 35px;
+  color: #3c2314;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-weight: normal;
+  margin-top: 20px; }
+
+.sentbox .cakeBox {
+  display: block;
+  float: left;
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 10px 20px 0; }
+
+.footer {
+  clear: both;
+  height: 280px;
+  margin-top: 252px;
+  background: url(../img/footer.png) no-repeat left top; }
+
+.footer .footBox {
+  width: 1162px;
+  margin: 0 auto 20px;
+  height: 131px;
+  padding-top: 69px;
+  text-align: center; }
+
+.footBox .footUls {
+  display: inline-block;
+  width: 729px;
+  height: 69px;
+  margin: 0 auto;
+  background: url(../img/footer_log.png) no-repeat left bottom;
+  padding-left: 131px; }
+
+.footUls .footLis {
+  float: left;
+  padding: 50px 42px 0 48px;
+  height: 14px;
+  background: url(../img/footer_point.png) no-repeat right bottom; }
+
+.footUls .footLis:nth-child(5) {
+  background: none; }
+
+.footLis .footA {
+  font-size: 14px;
+  color: #3c2314; }
+
+.footBox .footP {
+  padding-top: 30px;
+  width: 860px;
+  height: 12px;
+  line-height: 12px;
+  margin: 0 auto;
+  color: #9b9b9b;
+  font-size: 12px;
+  letter-spacing: 1.5px; }
+
+.copy {
+  width: 1162px;
+  height: 12px;
+  margin: 0 auto; }
+
+.copy .copyP {
+  width: 900px;
+  text-align: center;
+  height: 24px;
+  line-height: 24px;
+  margin: 0 auto;
+  color: #9b9b9b;
+  font-size: 12px;
+  letter-spacing: 1.5px; }
+
+.copyP .copyA {
+  color: #9b9b9b;
+  font-size: 12px;
+  letter-spacing: 1.5px; }
+
+.copyP .copyA:hover {
+  color: #c8b49b; }

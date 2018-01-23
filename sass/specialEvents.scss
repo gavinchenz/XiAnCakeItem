@@ -1,0 +1,32 @@
+$FontFamily:"微软雅黑",Arial;
+$marginInit:0 auto;
+$BgColorInit:#fff;
+$FontSize:14px;
+$color:#3c2314;
+$colorHover:#c8b49b;
+$LetterSpacing:1.5px;
+$Width:1162px;
+$Border:1px solid #E7E7E7;
+
+.h_uls .h_li:nth-child(4) .h_a{
+  color:$colorHover;
+}
+
+// section
+.sec_box{
+	width:$Width;
+	height:755px;
+	margin:$marginInit;
+	margin-top:100px;
+}
+.sec_box .sec_A{
+	width:570px;
+	height:373px;
+	float:left;
+	margin:0 8px 10px 0;
+}
+.sec_box .sec_img{
+	width:570px;
+	height:373px;
+	margin:0 8px 105px 0;
+}
