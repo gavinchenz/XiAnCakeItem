@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* CSS Document */
+body, div, p, h1, h2, h3, h4, h5, h6, ul, li, ol, dl, dt, dd, img, form, table, tr, th, td, caption, fieldset, input {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  height: auto; }
+
+body {
+  font-family: "微软雅黑", Arial;
+  background-color: #fff; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: none;
+  display: block; }
+
+i {
+  display: none; }
+
+.zzc {
+  width: 100%;
+  height: 4000px;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  display: none; }
+
+.header {
+  z-index: 998; }
+
+.imgBox {
+  width: 100%;
+  height: 370px;
+  margin-top: 100px;
+  padding-left: 50px; }
+
+.imgBox a {
+  width: 379px;
+  height: 279px;
+  float: left;
+  margin-right: 30px;
+  background-size: 100%; }
+
+.imgBox a:nth-child(3) {
+  margin-right: 0px; }
+
+.eatImg {
+  background: url(../img/EnterpriseZone01.jpg) no-repeat left top; }
+
+.customImg {
+  background: url(../img/EnterpriseZone02.jpg) no-repeat left top; }
+
+.procurementImg {
+  background: url(../img/EnterpriseZone03.jpg) no-repeat left top; }
+
+.boxes {
+  width: 1162px;
+  height: auto;
+  margin: 0 auto; }
+
+.eatBox, .exchangeBox, .customBox, .procurementBox, .cooperationBox {
+  width: 1162px;
+  height: 256px;
+  letter-spacing: 1.5px; }
+
+.boxes h2 {
+  width: 1162px;
+  height: 65px;
+  text-align: left;
+  line-height: 52px;
+  border-bottom: 1px solid #E7E7E7;
+  font-weight: normal;
+  color: #AA8764;
+  font-size: 22px; }
+
+.boxes span {
+  display: inline-block;
+  width: 99px;
+  height: 29px;
+  text-align: center;
+  line-height: 29px;
+  border-bottom: 1px solid #E7E7E7;
+  font-size: 14px;
+  color: #FBF5DD;
+  background: #3c2314;
+  margin-left: 68px;
+  vertical-align: middle;
+  cursor: pointer; }
+
+#customBoxId span {
+  margin-left: 21px; }
+
+.boxes p {
+  width: 1162px;
+  height: 30px;
+  text-align: left;
+  line-height: 60px;
+  color: #3c2314; }
+
+.boxes .p1 {
+  font-size: 18px; }
+
+.boxes .p2 {
+  font-size: 10px; }

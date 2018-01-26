@@ -17,16 +17,9 @@
   color: #3c2314;
   line-height: 45px;
   text-align: center;
-  margin-right: 7px; }
-
-.logNav a:hover {
-  color: #FFF;
-  background: #C8B49B; }
-
-#phoneAId {
-  color: #FFF;
-  background: #C8B49B;
-  border-bottom: 3px solid #3c2314; }
+  margin-right: 7px;
+  transition: border .5s;
+  position: relative; }
 
 #weixinAId {
   position: relative;

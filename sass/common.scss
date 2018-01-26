@@ -47,15 +47,16 @@ i{
   z-index:999;
   padding:13px 0 0 7px;
 }
-.infoFixed a,img{
+.infoFixed a{
   width:112px;
   height:44px;
   border-radius:3px;
-  
+  z-index:999;
 }
-.infoFixed img{
+.infoFixed .img1{
   width:105px;
   height:31px;
+  z-index:999;
 }
 .couponFiexd{
   position:fixed;
@@ -87,6 +88,36 @@ i{
 .couponFiexd:hover .aImg{
   display:block;
 }
+
+.backTop{
+  position:fixed;
+  right:2px;
+  bottom:-41px;
+  width:39px;
+  height:39px;
+  z-index:999;
+  background:#666666;
+  cursor:pointer;
+  color:#fff;
+  font-size:14px;
+  border:none;
+  outline:0;
+  background:url(../img/Image2.png) no-repeat left top;
+}
+.backZzc{
+  display:none;
+  width:39px;
+  height:39px;
+  background:#404040;
+  font-size:$FontSize;
+  text-align:center;
+  letter-spacing:$LetterSpacing;
+  color:#fff;
+}
+.backTop:hover .backZzc{
+  display:block;
+}
+
 
 // header
 .header{
