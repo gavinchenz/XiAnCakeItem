@@ -1,0 +1,200 @@
+@charset "UTF-8";
+/* CSS Document */
+body, div, p, h1, h2, h3, h4, h5, h6, ul, li, ol, dl, dt, dd, img, form, table, tr, th, td, caption, fieldset, input {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  height: auto; }
+
+body {
+  font-family: "微软雅黑", Arial;
+  background-color: #fff; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: none;
+  display: block; }
+
+i {
+  display: none; }
+
+.banner {
+  height: 752px;
+  position: relative;
+  overflow: hidden;
+  position: relative; }
+
+#imgId {
+  position: absolute;
+  left: -355px;
+  width: 150%;
+  height: 650px;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  text-align: left;
+  vertical-align: middle; }
+
+.banner .fixedBox {
+  width: 300px;
+  height: 40px;
+  position: absolute;
+  left: 30px;
+  bottom: 85px;
+  z-index: 990;
+  cursor: pointer; }
+
+#detailMsg {
+  width: 419px;
+  height: 548px;
+  border: 1px solid #E7E7E7;
+  position: absolute;
+  right: 88px;
+  top: 150px;
+  z-index: 998; }
+
+#titP {
+  width: 419px;
+  height: 552px;
+  margin: 30px 0;
+  color: #3c2314;
+  height: 30px;
+  line-height: 30px;
+  font-size: 27px; }
+
+#titS1 {
+  margin-left: 25px; }
+
+#sweetness, #mozzarella {
+  width: 150px;
+  height: 16px;
+  font-size: 10px;
+  color: #3c2314;
+  line-height: 16px;
+  margin-left: 25px;
+  background: url(../img/star.png) no-repeat right center; }
+
+#sweetness {
+  background-position: 40px 2px; }
+
+#mozzarella {
+  margin-top: 10px;
+  background-position: 40px -34px; }
+
+#info {
+  width: 315px;
+  height: 54px;
+  line-height: 18px;
+  font-size: 10px;
+  color: #3c2314;
+  margin: 20px 0 0 25px; }
+
+#imginof {
+  height: 145px;
+  margin-top: 30px; }
+
+#sizeImg {
+  float: left;
+  width: 229px;
+  height: 137px;
+  background: #FAFAFB; }
+
+#ulSize {
+  width: 190px;
+  height: 145px;
+  float: left; }
+
+#ulSize .sizeLi {
+  width: 190px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #3c2314;
+  text-indent: 30px;
+  margin-bottom: 5px; }
+
+#ulSize li:first-child {
+  background: url(../img/sizes25.png) no-repeat center left; }
+
+#ulSize li:nth-child(2) {
+  background: url(../img/covers25.png) no-repeat center left; }
+
+#ulSize li:nth-child(3) {
+  background: url(../img/numbers25.png) no-repeat center left; }
+
+#ulSize li:nth-child(4) {
+  background: url(../img/times25.png) no-repeat center left; }
+
+#ulSize li:last-child {
+  text-indent: 0px;
+  width: 190px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #3c2314; }
+
+#ulSize li span {
+  font-size: 24px;
+  letter-spacing: 1.5px; }
+
+#sizeBox {
+  width: 355px;
+  height: 45px;
+  margin: 30px 0 0 25px; }
+
+#sizeBox li {
+  float: left;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #3c2314;
+  border: 1px solid #C8B49B;
+  margin: 0 14px 10px 0;
+  cursor: pointer; }
+
+#sizeBox li:nth-child(4) {
+  margin: 0 0 10px 0; }
+
+#sizeBox li:last-child {
+  margin: 0 0 10px 0; }
+
+.hiddenLi {
+  display: none; }
+
+#shoppingCart, #buyNow {
+  width: 172px;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+  border: none;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  outline: none; }
+
+#shoppingCart {
+  color: #fff;
+  background: #3c2314;
+  margin: 30px 15px 20px 25px; }
+
+#buyNow {
+  width: 170px;
+  height: 40px;
+  color: #3c2314;
+  background: #fff;
+  border: 1px solid #E7E7E7;
+  outline: 0; }
+
+.imges {
+  width: 1162px;
+  height: 772px;
+  margin: 0 auto; }

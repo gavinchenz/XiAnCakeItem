@@ -38,6 +38,10 @@ i{
   display: none;
 }
 
+.h_uls .h_li:nth-child(5) .h_a{
+  color:$colorHover;
+}
+
 
 // zzc
 .zzc{
@@ -132,4 +136,155 @@ i{
 }
 .boxes .p2{
   font-size:$FontSize - 4;
+}
+
+
+//表单form's
+#eatFormId,#procurementFormId,#exchangeFormId,#customFormId,#cooperationFormId{
+  display:none;
+  width:703px;
+  height:439px;
+  position:fixed;
+  left:50%;
+  top:45%;
+  margin-left:-350px;
+  margin-top:-211px;
+  background:#fff;
+  border:1px solid #999999;
+  z-index:999;
+  box-shadow:inset 0 0 1px 1px #e7e7e7;
+}
+#eatFormId{
+  width:703px;
+  height:439px;
+
+}
+#procurementFormId,#customFormId,#cooperationFormId{
+  width:703px;
+  height:524px;
+  top:40%;
+}
+#exchangeFormId{
+  width:830px;
+  height:91px;
+  top:42%;
+  margin-left:-415px;
+  margin-top:-86px;
+  padding-top:80px;
+}
+
+#titH2iD{
+  width:700px;
+  height:77px;
+  font-size:$FontSize + 8;
+  color:#C8B49B;
+  text-align:center;
+  line-height:77px;
+  font-weight:normal;
+  letter-spacing:$LetterSpacing;
+}
+#uls{
+  width:703px;
+  height:356px;
+}
+#lis{
+  width:703px;
+  height:42px;
+  margin-bottom:21px;
+}
+#lis:nth-child(4){
+  margin-bottom:55px;
+}
+#labelId,#labelId1{
+  float:left;
+  width:80px;
+  height:40px;
+  line-height:40px;
+  text-align:left;
+  color:$color;
+  font-size:$FontSize;
+  margin:0 12px 0 30px;
+  letter-spacing:$LetterSpacing - 0.5;
+}
+
+#labelId1{
+  width:183px;
+  margin:0 0 0 30px;
+}
+
+.txt{
+  width:541px;
+  height:40px;
+  border:$Border;
+  float:left;
+  line-height:40px;
+  text-align:left;
+  padding-left:20px;
+  outline:0;
+}
+
+.txt_01{
+  width:491px;
+  height:40px;
+  border:$Border;
+  float:left;
+  line-height:40px;
+  text-align:left;
+  padding-left:20px;
+  outline:0;
+}
+
+#btn,#btn1,#btn2,#btn3,#btn4{
+  width:662px;
+  height:40px;
+  margin:0 20px;
+  color:#FBF5DD;
+  font-size:$FontSize;
+  background:$color;
+  border:none;
+  outline:0;
+}
+
+#btn2{
+  width:70px;
+  height:42px;
+  margin:0 0 0 20px;
+}
+
+.exitZzc{
+  width:20px;
+  height:20px;
+  line-height:20px;
+  text-align:center; 
+  float:right; 
+  position:absolute;
+  left:662px;
+  top:28px;
+  z-index:999;
+  color:$color;
+  font-size:$FontSize + 11;
+  cursor:pointer;
+}
+
+#exitZzcId2{
+  left:797px;
+}
+
+.area{
+  width:556px;
+  height:121px;
+  border:$Border;
+  outline:0;
+}
+
+#procurementFormId #lis:nth-child(4){
+  margin-bottom: 146px;
+}
+
+#customFormId #lis:nth-child(4){
+  margin-bottom: 146px;
+}
+
+#cooperationFormId #lis:nth-child(4){
+  margin-bottom: 146px;
 }

@@ -14,6 +14,18 @@ gulp.task("sass",function(){
 	.pipe(gulp.dest("D:\\陈卓\\Item_cz_2018_01_16\\css"))
 });
 
+gulp.task('copyall',function(){
+	gulp.src('./**/*')
+	.pipe(gulp.dest('D:\\phpStudy\\WWW\\CakeItem'));
+});
+
+gulp.task("watch",function(){
+	gulp.watch("sass/*.scss",["sass"]);
+	// gulp.watch("./**/*",["copyall"]);
+});
+
+
+// 拷贝
 gulp.task('copy-html',function(){
 	gulp.src('*.html')
 	.pipe(gulp.dest('D:\\phpStudy\\WWW\\CakeItem'));
@@ -40,10 +52,28 @@ gulp.task('copyvideogfile',function(){
 	.pipe(gulp.dest('D:\\phpStudy\\WWW\\CakeItem\\video'));
 });
 
-// gulp.task("build",["sass"],function(){
-// 	console.log("ok");
-// });
+gulp.task("build",["sass"],function(){
+	console.log("ok");
+});
 
-gulp.task("watch",function(){
-	gulp.watch("sass/*.scss",["sass"]);
+
+
+
+//压缩
+gulp.task('minify-html', function () {
+    gulp.src('html/*.html') // 要压缩的html文件
+    .pipe(minifyHtml()) //压缩
+    .pipe(gulp.dest('D:\\phpStudy\\WWW\\CakeItem'));
+});
+
+gulp.task('minify-css', function () {
+    gulp.src('css/*.css') // 要压缩的css文件
+    .pipe(minifyCss()) //压缩css
+    .pipe(gulp.dest('D:\\phpStudy\\WWW\\CakeItem\\css'));
+});
+
+gulp.task('minify-js', function () {
+    gulp.src('js/*.js') // 要压缩的js文件
+    .pipe(uglify())  //使用uglify进行压缩,更多配置请参考：
+    .pipe(gulp.dest('D:\\phpStudy\\WWW\\CakeItem\\js')); //压缩后的路径
 });

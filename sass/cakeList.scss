@@ -233,21 +233,40 @@ $Border:1px solid #E7E7E7;
 	position:relative;
 	margin:0 10px 20px 0;
 }
-.cakeBox .cakeImg{
+.cakebox .boxDown,.boxUp{
 	width:280px;
 	height:280px;
+}
+.cakebox .boxUp{
+	position:absolute;
+	left:0px;
+	top:0px;
+	opacity:0;
+	transition:all .5s;
+}
+.cakeimg,.cakeimg1{
+	width:280px;
+	height:280px;
+	transition:all .5s;
+}
+#cakeBoxId:hover #boxUpId {
+  opacity: 1; 
+}
+
+#cakeBoxId:hover #cakeImgId1 {
+  transform:scale(1.3); 
 }
 .cakeBox .cakezzc{
 	position:absolute;
 	left:0;
 	top:0;
 	z-index:997;
-	display:none;
+	opacity:0;
 	width:280px;
 	height:280px;
 }
 .cakeBox:hover .cakezzc{
-	display:block;
+	opacity: 1; 
 	transform:scale(1.3);
 	transition:all 1s;
 }

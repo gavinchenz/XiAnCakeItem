@@ -113,6 +113,24 @@ $Dom("exitZzcId").onclick=function(){
 }
 
 
+//购物车
+$(".r_span").toggle(
+  function () {
+    $(".checkoutBox").css("display","block");
+  },
+  function () {
+    $(".checkoutBox").css("display","none");
+  }
+);
+$(".r_count").toggle(
+  function () {
+ 	$(".checkoutBox").css("display","block");
+  },
+  function () {
+    $(".checkoutBox").css("display","none");
+  }
+);
+
 window.onload=function(){
 
 	//1、初始化界面
@@ -156,7 +174,7 @@ $("#imgUp").click(function(){
 
 
 //回到顶部
-document.getElementById("backTopId").onclick=function(){
+$Dom("backTopId").onclick=function(){
 	document.documentElement.scrollTop = document.body.scrollTop=0;	
 }
 

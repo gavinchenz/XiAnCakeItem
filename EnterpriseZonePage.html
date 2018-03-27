@@ -30,13 +30,13 @@
 <!-- header -->
 	<div class="header" id="headerId">
 		<div class="headerBox" id="headerBoxId">
-			<a href="#" class="logo" id="logoId"></a>
+			<a href="index.html" class="logo" id="logoId"></a>
 			<ul class="h_uls" id="h_ulsId">
 				<li class="h_li" id="h_liId"><a href="index.html" class="h_a" id="h_aId">首页</a></li>
 				<li class="h_li" id="h_liId"><a href="cakeList.html" class="h_a" id="h_aId">蛋糕</a></li>
 				<li class="h_li" id="h_liId"><a href="detailsPage.html" class="h_a" id="h_aId">精选食材</a></li>
 				<li class="h_li" id="h_liId"><a href="specialEvents.html" class="h_a" id="h_aId">最新活动</a></li>
-				<li class="h_li" id="h_liId"><a href="#" class="h_a" id="h_aId">企业专区</a></li>
+				<li class="h_li" id="h_liId"><a href="EnterpriseZonePage.html" class="h_a" id="h_aId">企业专区</a></li>
 				<li class="h_li" id="h_liId"><a href="loginPage.html" class="h_a" id="h_aId">会员中心</a></li>
 			</ul>
 			<div class="h_right" id="h_rightid">
@@ -51,9 +51,9 @@
 
 <!-- section-one -->
 	<div class="imgBox" id="imgBoxId">
-		<a href="#" class="eatImg" id="eatImgId"></a>
-		<a href="#" class="customImg" id="customImgId"></a>
-		<a href="#" class="procurementImg" id="procurementImgId"></a>
+		<a href="#eatBoxId" class="eatImg" id="eatImgId"></a>
+		<a href="#customBoxId" class="customImg" id="customImgId"></a>
+		<a href="#procurementBoxId" class="procurementImg" id="procurementImgId"></a>
 	</div>
 	<div class="boxes" id="boxesId">
 		<div class="eatBox" id="eatBoxId">
@@ -87,16 +87,113 @@
 
 
 <!-- form 表单-->
-	<form id="eatFormId" action="">
-		<ul>
-			<li><label for=""></label><input type="text" placeholder="请输入公司名称"/></li>
-			<li><label for=""></label><input type="联系人" placeholder="请输入公司名称"/></li>
-			<li><label for=""></label><input type="手机" placeholder="请输入公司名称"/></li>
-			<li><label for=""></label><input type="text" placeholder="请输入公司名称"/></li>
-		</ul>
-		<h2 id="titH2iD">企业试吃预约</h2>
-		
-	</form>
+	<!-- eatForm -->
+		<form id="eatFormId" action="">		
+			<h2 id="titH2iD">企业试吃预约</h2>
+			<ul id="uls">
+				<li id="lis">
+					<label id="labelId" for="">公司名称</label>
+					<input class="txt" id="txt1" type="text" placeholder="请输入公司名称"/>
+				</li>
+				<li id="lis">
+					<label id="labelId"  for="">联系人</label>
+					<input class="txt" id="txt2"  type="text" placeholder="请输入联系人姓名"/>
+				</li>
+				<li id="lis">
+					<label id="labelId"  for="">手机</label>
+					<input class="txt" id="txt3"  type="text" placeholder="请输入联系人手机号码"/>
+				</li>
+				<li id="lis">
+					<label id="labelId"  for="">试吃人数</label>
+					<input class="txt" id="txt4"  type="text" placeholder="请输入试吃人数"/>
+				</li id="lis">
+				<li><input id="btn" type="submit" value="提交"/></li>
+			</ul>	
+			<div class="exitZzc" id="exitZzcId">×</div>
+		</form>
+
+	<!-- procurementForm -->
+		<form id="procurementFormId" action="">		
+			<h2 id="titH2iD">企业采购预约</h2>
+			<ul id="uls">
+				<li id="lis">
+					<label id="labelId" for="">公司名称</label>
+					<input class="txt" id="txt5" type="text" placeholder="请输入公司名称"/>
+				</li>
+				<li id="lis">
+					<label id="labelId"  for="">联系人</label>
+					<input class="txt" id="txt6"  type="text" placeholder="请输入联系人姓名"/>
+				</li>
+				<li id="lis">
+					<label id="labelId"  for="">手机</label>
+					<input class="txt" id="txt7"  type="text" placeholder="请输入联系人手机号码"/>
+				</li>
+				<li id="lis">
+					<label id="labelId"  for="">采购需求</label>
+					<textarea class="area" id="txt8" placeholder="请简单描述您的采购需求"></textarea>
+				</li id="lis">
+				<li><input id="btn1" type="submit" value="提交"/></li>
+			</ul>	
+			<div class="exitZzc" id="exitZzcId1">×</div>
+		</form>
+
+	<!-- exchangeForm -->
+		<form id="exchangeFormId" action="">	
+			<label id="labelId1" for="">请输入代金卡／电子券密码</label>
+			<input class="txt_01" id="txt9" type="text"/>
+			<input id="btn2" type="submit" value="验证"/>
+			<div class="exitZzc" id="exitZzcId2">×</div>
+		</form>
+
+	<!-- customForm -->
+		<form id="customFormId" action="">		
+			<h2 id="titH2iD">企业定制蛋糕预约</h2>
+			<ul id="uls">
+				<li id="lis">
+					<label id="labelId" for="">公司名称</label>
+					<input class="txt" id="txt10" type="text" placeholder="请输入公司名称"/>
+				</li>
+				<li id="lis">
+					<label id="labelId"  for="">联系人</label>
+					<input class="txt" id="txt11"  type="text" placeholder="请输入联系人姓名"/>
+				</li>
+				<li id="lis">
+					<label id="labelId"  for="">手机</label>
+					<input class="txt" id="txt12"  type="text" placeholder="请输入联系人手机号码"/>
+				</li>
+				<li id="lis">
+					<label id="labelId"  for="">定制需求</label>
+					<textarea class="area" id="txt13" placeholder="请简单描述您的定制需求"></textarea>
+				</li id="lis">
+				<li><input id="btn3" type="submit" value="提交"/></li>
+			</ul>	
+			<div class="exitZzc" id="exitZzcId3">×</div>
+		</form>
+
+	<!-- cooperationForm -->
+		<form id="cooperationFormId" action="">		
+			<h2 id="titH2iD">市场合作预约</h2>
+			<ul id="uls">
+				<li id="lis">
+					<label id="labelId" for="">公司名称</label>
+					<input class="txt" id="txt14" type="text" placeholder="请输入公司名称"/>
+				</li>
+				<li id="lis">
+					<label id="labelId"  for="">联系人</label>
+					<input class="txt" id="txt15"  type="text" placeholder="请输入联系人姓名"/>
+				</li>
+				<li id="lis">
+					<label id="labelId"  for="">手机</label>
+					<input class="txt" id="txt16"  type="text" placeholder="请输入联系人手机号码"/>
+				</li>
+				<li id="lis">
+					<label id="labelId"  for="">合作意向</label>
+					<textarea class="area" id="txt17" placeholder="请简单描述您的合作意向"></textarea>
+				</li id="lis">
+				<li><input id="btn4" type="submit" value="提交"/></li>
+			</ul>	
+			<div class="exitZzc" id="exitZzcId4">×</div>
+		</form>
 
 <!-- footer -->
 	<div class="footer" id="footerId">

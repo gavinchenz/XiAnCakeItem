@@ -8,6 +8,11 @@ $LetterSpacing:1.5px;
 $Width:1162px;
 $Border:1px solid #E7E7E7;
 
+
+.h_uls .h_li:nth-child(6) .h_a{
+  color:$colorHover;
+}
+
 // section
 .sec_logdiv{
 	width:$Width;
@@ -114,7 +119,7 @@ $Border:1px solid #E7E7E7;
 .phoneLi a:hover{
 	color:$colorHover;
 }
-.phoneLogBox .btn{
+.phoneLogBox .btn01{
 	width:382px;
 	height:40px;
 	line-height:40px;
@@ -123,6 +128,7 @@ $Border:1px solid #E7E7E7;
 	background:$color;
 	border:0;
 	outline: 0;
+	cursor:pointer;
 } 
 .phoneLogBox .a1,.a2{
 	height:40px;
@@ -173,7 +179,7 @@ $Border:1px solid #E7E7E7;
 	border:$Border;
 	float:left;
 }
-.accountLogBox .btn{
+.accountLogBox .btn02{
 	margin-top:30px;
 	width:382px;
 	height:40px;
@@ -183,6 +189,7 @@ $Border:1px solid #E7E7E7;
 	background:$color;
 	border:0;
 	outline: 0;
+	cursor:pointer;
 } 
 .accountLogBox .a1,.a2{
 	height:40px;

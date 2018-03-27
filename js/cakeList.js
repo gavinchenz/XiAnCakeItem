@@ -16,13 +16,13 @@ window.onscroll=function(){
 		$Dom("couponFiexdId").style.bottom=43+"px";
 		$Dom("backTopId").style.right=2+"px";
 		$Dom("backTopId").style.bottom=2+"px";
-		$Dom("imgDowmId").style.display="none";
+		// $Dom("imgDowmId").style.display="none";
 	}else{
 		$Dom("couponFiexdId").style.right=2+"px";
 		$Dom("couponFiexdId").style.bottom=2+"px";
 		$Dom("backTopId").style.right=2+"px";
 		$Dom("backTopId").style.bottom=-41+"px";
-		$Dom("imgDowmId").style.display="block";
+		// $Dom("imgDowmId").style.display="block";
 	}
 }
 
